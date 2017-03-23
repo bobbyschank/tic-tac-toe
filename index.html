@@ -5,24 +5,30 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 	<body>
+		<section id="gump">
+			<img src="http://stream1.gifsoup.com/view7/4226124/seat-s-taken-o.gif">
+			<h1>SEAT'S TAAAKEN!</h1>
+		</section>
+
 		<table>
 		  <tr>
-		    <td class="row1 col1">M</td>
-		    <td class="row1 col2">S</td>
-		    <td class="row1 col3">S</td>
+		    <td data-row=0 data-col=0 data-diag1=1></td>
+		    <td data-row=0 data-col=1></td>
+		    <td data-row=0 data-col=2 data-diag2=1></td>
 		  </tr>
 		    <tr>
-		    <td class="row2 col1">M</td>
-		    <td class="row2 col2">S</td>
-		    <td class="row2 col3">S</td>
+		    <td data-row=1 data-col=0></td>
+		    <td data-row=1 data-col=1 data-diag1=1 data-diag2=1></td>
+		    <td data-row=1 data-col=2></td>
 		  </tr>
 		    <tr>
-		    <td class="row3 col1"> M</td>
-		    <td class="row3 col2">S</td>
-		    <td class="row3 col3">S</td>
+		    <td data-row=2 data-col=0 data-diag2=1></td>
+		    <td data-row=2 data-col=1></td>
+		    <td data-row=2 data-col=2 data-diag1=1></td>
 		  </tr>
 
 		</table>
+		<button>RESET</button>
 		<script type="text/javascript" src='tictac.js'></script>
 	</body>
 </html>
